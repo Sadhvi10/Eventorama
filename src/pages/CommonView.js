@@ -174,7 +174,7 @@ function CommonView() {
               </div>
               <p className='font-medium'>Please generate code or enter your alias code below.</p>
               <div className='flex flex-row bg-yellow-200 space-x-4 items-center'>
-                  <p className='bg-yellow-300 p-2 font-semibold'>localhost:3000/ </p>
+                  <p className='bg-yellow-300 p-2 font-semibold'>eventorama-app.vercel.app/ </p>
                   <input
                     type='text'
                     className='p-2 outline-none bg-yellow-200 placeholder:text-xs placeholder:text-black '
