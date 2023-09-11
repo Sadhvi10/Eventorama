@@ -135,11 +135,11 @@ function CommonView() {
             <div className='bg-yellow-400 text-black p-12 tracking-wider rounded space-y-4 shadow-xl hover:scale-110 transition-transform duration-500 ease-in'>
               <div className='flex flex-col items-center justify-start space-y-2'>
                 <p className='text-sm'>Homepage URL starts with : </p>  
-                <p className='bg-yellow-300 p-2 font-semibold'>localhost:3000/ </p>
+                <p className='bg-yellow-300 p-2 font-semibold'>eventorama-app.vercel.app/ </p>
               </div>
               <div className='flex flex-col items-center justify-start space-y-2'>
                 <p className='text-sm'>Spectators can view tournaments with : </p>  
-                <p className='bg-yellow-300 p-2 font-semibold'>localhost:3000/'userCode'</p>
+                <p className='bg-yellow-300 p-2 font-semibold'>eventorama-app.vercel.app/'userCode'</p>
               </div>
             </div>
           </div>
