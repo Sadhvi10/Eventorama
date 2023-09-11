@@ -1,6 +1,6 @@
 # Eventorama - A Tournament Managing Web Application
 
-This project facilitates tournaments without demanding personal data from users, prioritizing their privacy and confidentiality. 
+This project facilitates tournaments without demanding personal data from users, prioritizing their privacy and confidentiality.  
 
 ## Available Scripts
 
