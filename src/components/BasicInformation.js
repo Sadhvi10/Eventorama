@@ -51,7 +51,7 @@ function BasicInformation({ userCode, tournamentName, setTournamentName, descrip
                     <div className="mb-4 p-4 flex flex-row space-x-4 items-center">
                         <label className="block text-black mb-2 w-1/4">URL</label>
                         <div className="flex flex-row w-3/4">
-                            <p className="bg-green-800 text-yellow-200 p-2 font-semibold">localhost:3000/</p>
+                            <p className="bg-green-800 text-yellow-200 p-2 font-semibold">eventorama-app.vercel.app/ </p>
                             <input
                                 type="text"
                                 className="p-2 outline-none bg-green-600 placeholder:text-xs placeholder:text-yellow-200 flex-grow"
