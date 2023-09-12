@@ -16,7 +16,7 @@ https://eventorama-app.vercel.app/
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Target Audience](#targetaudience)
+- [Target Audience](#target-audience)
   
 ## Installation
 
