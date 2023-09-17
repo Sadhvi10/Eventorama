@@ -138,8 +138,8 @@ function CommonView() {
                 <p className='bg-yellow-300 p-2 font-semibold'>eventorama-app.vercel.app/ </p>
               </div>
               <div className='flex flex-col items-center justify-start space-y-2'>
-                <p className='text-sm'>Spectators can view tournaments with : </p>  
-                <p className='bg-yellow-300 p-2 font-semibold'>eventorama-app.vercel.app/'userCode'</p>
+                <p className='text-sm'>Spectators can view tournaments : </p>  
+                <p className='bg-yellow-300 p-2 font-semibold'>when user enables the result page</p>
               </div>
             </div>
           </div>
