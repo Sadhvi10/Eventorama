@@ -139,7 +139,7 @@ function CommonView() {
               </div>
               <div className='flex flex-col items-center justify-start space-y-2'>
                 <p className='text-sm'>Spectators can view tournaments : </p>  
-                <p className='bg-yellow-300 p-2 font-semibold'>when user enables the result page</p>
+                <p className='bg-yellow-300 p-2 text-center font-semibold'>when user enables the result page</p>
               </div>
             </div>
           </div>
