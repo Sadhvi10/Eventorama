@@ -8,7 +8,6 @@ import NoPage from './pages/NoPage';
 import SetPassword from './pages/SetPassword';
 import ConfirmPassword from './pages/ConfirmPassword';
 import CreateTournament from './pages/CreateTournament';
-import CreateEvent from './pages/CreateEvent';
 import TournamentPage from './pages/TournamentPage';
 
 
@@ -31,7 +30,6 @@ function App() {
           <Route path="/tournaments/new" element={<CreateTournament/>} />
           <Route path="/tournament/:code" element={<TournamentPage/>} />
           <Route path="/tournament/:code/:view" element={<TournamentPage />} />
-          <Route path="/events/new" element={<CreateEvent/>} />
           <Route path="*" element={<NoPage/>}/>
         </Routes>
       </Router>

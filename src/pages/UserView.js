@@ -10,7 +10,6 @@ import { getAuth, deleteUser } from "firebase/auth";
 import {FaAngleDown, FaAngleUp} from 'react-icons/fa';
 import {TiUser} from 'react-icons/ti';
 import {TbTournament} from 'react-icons/tb';
-import {BsCalendarEvent} from 'react-icons/bs';
 import {GiTrophy} from 'react-icons/gi'
 import { MdDelete } from 'react-icons/md'; 
 
@@ -175,12 +174,6 @@ function UserView() {
               <p>Tournaments</p>
             </div>
           </Link>
-          <Link to="#" className='font-medium text-xl hover:text-yellow-300 tracking-wider' onClick={() => setView('event')}>
-            <div className='flex flex-row'>
-              <BsCalendarEvent className='w-6 h-6 pr-1'/>
-              <p>Events</p>
-            </div>
-          </Link>
         </div>
 
         {/* User Dropdown */}
@@ -198,7 +191,7 @@ function UserView() {
             <div className="py-1" role="menu" aria-orientation="vertical">
               <Link to="#" onClick={() => setView('home')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Home</Link>
               <Link to="#" onClick={() => setView('tournament')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black"> Tournaments</Link>
-              <Link to="#" onClick={() => setView('event')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Events</Link>
+              {/* <Link to="#" onClick={() => setView('event')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Events</Link> */}
               {isUser && (<button onClick={toggleAccountOptions} className="block flex flex-row items-center space-x-2 w-full text-left px-4 py-2 hover:bg-yellow-300 hover:text-black">
               <span>Account</span>
               {isAccountOptionsVisible ? <FaAngleUp className="w-4 h-4" /> : <FaAngleDown className="w-4 h-4" />}
@@ -357,19 +350,6 @@ function UserView() {
           ))}
         </div>
         {isUser && (<button onClick={() => navigate('/tournaments/new')} className="mt-4 bg-green-800 px-3 py-2 text-yellow-200hover:bg-green-700 hover:text-yellow-300 font-medium rounded">Create Tournament</button>)}
-      </div>
-      )}
-
-      {/* Event View */}
-      {view === 'event' && (
-      <div className='p-4 space-y-4'>
-        {/* Display events created by the user */}
-        <p className='text-xl text-yellow-200 font-bold'>Your Events:</p>
-        {/* Placeholder for events list */}
-        <div className="text-black shadow-lg bg-yellow-300 space-y-4">
-          List of Events (Placeholder)
-        </div>
-        {isUser && (<button onClick={() => navigate('/events/new')} className="mt-4 bg-green-800 px-3 py-2 text-yellow-200hover:bg-green-700 hover:text-yellow-300 font-medium rounded">Create Event</button>)}
       </div>
       )}
 
