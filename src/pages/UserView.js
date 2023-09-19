@@ -108,9 +108,16 @@ function UserView() {
   };
 
   // Handle logout and redirect to CommonView
-  const handleLogout = () => {
-    navigate('/');  // Navigate to the root (assuming CommonView is at '/')
-  };
+  const handleLogout = (event) => {
+    event.preventDefault();
+
+    const confirmation = window.confirm("Do you really want to logout?");
+
+    if (confirmation) {
+        navigate('/');  // Navigate to the root 
+    }
+    // If user clicks "Cancel", nothing happens and they remain on the site
+};
 
 
   const toggleDropdown = () => {
@@ -199,7 +206,7 @@ function UserView() {
               {isAccountOptionsVisible && (
                 <div className="pl-4 border-l border-yellow-500">
                   {isUser && (<Link to="#" onClick={handleDeleteAccount} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Delete Account</Link>)}
-                  {isUser && (<Link to="/" onClick={handleLogout} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Logout</Link>)}
+                  {isUser && (<Link to="#" onClick={(event) => handleLogout(event)} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Logout</Link>)}
                 </div>
               )}
             </div>
