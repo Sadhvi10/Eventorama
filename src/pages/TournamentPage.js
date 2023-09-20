@@ -507,5 +507,3 @@ function TournamentPage() {
 }
 
 export default TournamentPage;
-
-
