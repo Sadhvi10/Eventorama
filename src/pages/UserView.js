@@ -198,7 +198,6 @@ function UserView() {
             <div className="py-1" role="menu" aria-orientation="vertical">
               <Link to="#" onClick={() => setView('home')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Home</Link>
               <Link to="#" onClick={() => setView('tournament')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black"> Tournaments</Link>
-              {/* <Link to="#" onClick={() => setView('event')} className="block px-4 py-2 hover:bg-yellow-300 hover:text-black">Events</Link> */}
               {isUser && (<button onClick={toggleAccountOptions} className="block flex flex-row items-center space-x-2 w-full text-left px-4 py-2 hover:bg-yellow-300 hover:text-black">
               <span>Account</span>
               {isAccountOptionsVisible ? <FaAngleUp className="w-4 h-4" /> : <FaAngleDown className="w-4 h-4" />}
