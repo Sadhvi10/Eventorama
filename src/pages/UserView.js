@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : UserView.js
+
 // Imports
 import React, { useState , useEffect, useContext} from 'react';
 import { useParams, useNavigate, Link, useLocation } from 'react-router-dom';

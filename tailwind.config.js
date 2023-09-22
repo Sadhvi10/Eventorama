@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [

@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : BasicInformation.js
+
 // Imports
 import React, { useEffect } from 'react';
 import {TiArrowShuffle}  from 'react-icons/ti';

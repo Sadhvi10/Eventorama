@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : App.js
+
 // Imports
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';

@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : SetPassword.js
+
 // Imports
 import React, { useState } from 'react';
 import { useNavigate, useParams, useLocation } from 'react-router-dom';

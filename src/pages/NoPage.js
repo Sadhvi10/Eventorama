@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : NoPage.js
+
 // Imports
 import React from 'react';
 import Header from '../components/Header';

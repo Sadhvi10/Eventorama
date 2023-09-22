@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : formatHelper.js
+
 // Date Formatting Helper
 const formatDateTime = (dateTimeString) => {
     const options = {

@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : ConfirmPassword.js
+
 // Imports
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';

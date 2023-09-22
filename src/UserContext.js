@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : UserContext.js
+
 import React, { createContext, useState, useContext } from "react";
 
 export const UserContext = createContext();

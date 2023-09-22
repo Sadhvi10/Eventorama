@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : CreateTournament.js
+
 // Imports
 import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';

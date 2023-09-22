@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : About.js
+
 // Imports
 import React from 'react';
 import {FaCameraRetro, FaUnsplash} from 'react-icons/fa';

@@ -1,3 +1,7 @@
+// MSc Project
+// Name & Student ID : Sadhvi Pugaonkar - 201672582
+// File name : index.js
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
