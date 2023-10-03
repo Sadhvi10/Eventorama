@@ -2,23 +2,29 @@
 
 This project facilitates tournaments without demanding personal data from users, prioritizing their privacy and confidentiality. The application's front end is designed using Reactjs & TailwindCSS, while Google's Firebase serves as the cloud-based tool for authentication and data storage.
 
-## Live website 
+🔍 Frameworks & Tools:
 
-https://eventorama-app.vercel.app/
+- **React**: [https://react.dev/](https://react.dev/)
+- **Firebase**: [https://firebase.google.com/](https://firebase.google.com/)
+- **TailwindCSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
 
-## Features
+## 🌐 Live Demo
+
+Experience the live version of the application [here](https://eventorama-app.vercel.app/).
+
+## 🌟 Key Features
 
 - Data-Free Storage (No personal data required to register or participate)
 - Anonymous participation (Users can register or log in using unique codes)
 - Easy Setup (User-friendly interface for setting up tournaments)
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Target Audience](#target-audience)
   
-## Installation
+## 🛠️ Installation
 
 Follow these steps to install and run the project on your local machine:
 
@@ -43,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm i && npm run start
 
-## Usage
+## 🚀 Usage
 
 ### Configuration
 
@@ -71,7 +77,7 @@ To set up and configure this project to work with Firebase, follow these steps:
 
    Replace the placeholders (`your_api_key`, `your_project_id`, `your_sender_id`, `your_app_id`, `your_measurement_id`) with your actual Firebase credentials.
 
-## Target Audience
+## 🚹 Target Audience
 
 - Sports Organizations
 - Schools & Educational Institutes
